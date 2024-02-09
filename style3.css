@@ -241,7 +241,7 @@ footer {
   position: relative;
   border-radius: 5px;
   margin-top:20%;
-  z-index:4;
+  z-index:-1;
   }
 
 .card1 {
