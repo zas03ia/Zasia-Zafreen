@@ -1,6 +1,6 @@
 
 function expand(id) {
-    var source=`${id}.html`
+    var source=`./templates/${id}.html`
   document.getElementById("iframe").src = source;  
   var popup = document.getElementById('content');
   popup.style.display = "block";
