@@ -60,7 +60,7 @@ header{
   .column-button {
     float: left;
     width: 33.33%;
-    min-width: 200px;
+    min-width: 280px;
   }
   .body {
     color: #FFFFFF;
@@ -244,9 +244,9 @@ header{
     border: 0.5px solid rgb(234, 228, 228);
     background-color: #848282;
     color: #b7b1b1;
-    height: 7vw;
+    height: auto;
     width: auto;
-    padding: 3% 35% 3% 35%;
+    padding: 3% 30% 3% 35%;
     position: sticky;
     border-radius: 5px;
     margin-top:20%;
