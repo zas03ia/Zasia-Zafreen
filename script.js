@@ -31,9 +31,7 @@ function closepop(){
 };
 
 var prev='';
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction(id) {
+function certificate(id) {
     var popup = document.getElementById(id);
     if(prev==''){
         popup.style.display = "block";
