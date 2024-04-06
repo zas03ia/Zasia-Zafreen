@@ -232,6 +232,7 @@ header{
     float: left;
     width: 33.33%;
     min-width:30px;
+    max-width: 80px;
   }
   
   header .row{
