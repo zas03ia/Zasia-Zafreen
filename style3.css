@@ -211,6 +211,7 @@ header{
     width:70%;
     height:3.1vw;
     min-height: 30px;
+    max-height: 80px;
     background-color: transparent;
     border-radius: 10%;
   background-color: #050505;
