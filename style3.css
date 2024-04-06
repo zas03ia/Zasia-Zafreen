@@ -50,7 +50,6 @@ header{
   .column1 {
     float: left;
     min-width: 280px;
-    max-width: 400px;
     width: 50%;
   }
   
