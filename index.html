@@ -1,162 +1,133 @@
 <!DOCTYPE html>
 <html>
-<title>Zasia Zafreen</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="style3.css" rel="stylesheet">
-<script src="script.js"></script>
-
-
-<header>
-    <div class="row">
-            <div class="columnheader">
-              <div class="icon" ><a href="#home">  <img src="./static/home2.png"></a>
-              </div>
-       
-       </div>
-       <div class="columnheader">
-        <div class="icon"> <a href="#menu"><img src="./static/menu.png"></a>
-        </div>
-</div>
-<div class="columnheader">
-<div class="icon">
-    <a href="#contact"><img src="./static/contact.png"></a>
-</div>
-</div>
-</div>
-<a href="./static/Zasia Zafreen.pdf" target="_blank"><div class="resume">Resume</div></a>
-
-      
-    
-</header>
-
-<body>
-    
-<div class="mega"> 
-  <div class="header" id="home">
-    <div class="row">
-      <div class="columnimg">
-        <div class="img-container">
-        <img id='img' src="./static/myimg.png" alt="my image">
-        </div>
-        
+   <title>Zasia Zafreen</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="style3.css" rel="stylesheet">
+   <script src="script.js"></script>
+   <header>
+      <div class="row">
+         <div class="columnheader">
+            <div class="icon" ><a href="#home">  <img src="./static/home2.png"></a>
+            </div>
+         </div>
+         <div class="columnheader">
+            <div class="icon"> <a href="#menu"><img src="./static/menu.png"></a>
+            </div>
+         </div>
+         <div class="columnheader">
+            <div class="icon">
+               <a href="#contact"><img src="./static/contact.png"></a>
+            </div>
+         </div>
       </div>
-
-      <div class="column1">
-        <div class="info-container">
-        <h2 class="text1">Zasia Zafreen</h2>
-        <p class="text2">A journey into the vibrant world of a recent Computer Science and Engineering graduate— welcome! I bring a flair for coding, navigating various programming languages, databases, and web development frameworks. Beyond the screen, my communication skills, honed through tutoring, weave smoothly into project collaborations. Now, I'm on the lookout for the next exhilarating opportunity that blends creativity with technology. Feel free to dive into my world and unfold the chapters, each telling a different story of my life!</p>
-        
-        </div>
-        
+      <a href="./static/Zasia Zafreen.pdf" target="_blank">
+         <div class="resume">Resume</div>
+      </a>
+   </header>
+   <body>
+      <div class="mega">
+         <div class="header" id="home">
+            <div class="row">
+               <div class="column1">
+                  <div class="info-container">
+                     <h2 class="text1">Zasia Zafreen</h2>
+                     <p class="text2">A journey into the vibrant world of a recent Computer Science and Engineering graduate— welcome! I bring a flair for coding, navigating various programming languages, databases, and web development frameworks. Beyond the screen, my communication skills, honed through tutoring, weave smoothly into project collaborations. Now, I'm on the lookout for the next exhilarating opportunity that blends creativity with technology. Feel free to dive into my world and unfold the chapters, each telling a different story of my life!</p>
+                  </div>
+               </div>
+            </div>
+            <div id="content" class="card1">
+               <span>
+                  <p onclick="closepop()" class="close">
+                     <img src="./static/close.png" width="2%">
+                  </p>
+                  <iframe id='iframe' src="" frame-border="0"></iframe>
+               </span>
+            </div>
+         </div>
+         <div class="body" id="menu">
+            <div class="row">
+               <div class="column-button">
+                  <div class="card" onclick="expand('education')">
+                     <img src="./static/edu.png" alt="Avatar">
+                     <div class="card-container">
+                        <p >Education</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="column-button">
+                  <div class="card" onclick="expand('projects')">
+                     <img src="./static/project.png" alt="Avatar">
+                     <div class="card-container">
+                        <p >Projects</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="column-button">
+                  <div class="card" onclick="expand('skills')">
+                     <img src="./static/skills.png" alt="Avatar">
+                     <div class="card-container">
+                        <p >Skills</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="column-button">
+                  <div class="card" onclick="expand('work')">
+                     <img src="./static/work.png" alt="Avatar">
+                     <div class="card-container">
+                        <p >Work</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="column-button">
+                  <div class="card" onclick="expand('certificates')">
+                     <img src="./static/certificate.png" alt="Avatar">
+                     <div class="card-container">
+                        <p>Certificates</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="column-button">
+                  <div class="card" onclick="expand('awards')">
+                     <img src="./static/award.png" alt="Avatar">
+                     <div class="card-container">
+                        <p>Awards<br> & <br> Honours</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      
-    </div>
-    <div id="content" class="card1">
-        <span>
-         
-            <p onclick="closepop()" class="close">
-                <img src="./static/close.png" width="2%">
-            </p>
-         
-            <iframe id='iframe' src="" frame-border="0"></iframe></span>
-    </div>
-    
-  </div>
-
-  <div class="body" id="menu">
-    <div class="row">     
-    <div class="column-button">
-        <div class="card" onclick="expand('education')">
-            <img src="./static/edu.png" alt="Avatar">
-            <div class="card-container">
-            <p >Education</p>
-            
-        </div>
-        
-        </div>
-    </div>
-    <div class="column-button">
-        <div class="card" onclick="expand('projects')">
-            <img src="./static/project.png" alt="Avatar">
-            <div class="card-container">
-            <p >Projects</p>
-        </div>
-        </div>
-
-    </div>
-    <div class="column-button">
-        <div class="card" onclick="expand('skills')">
-            <img src="./static/skills.png" alt="Avatar">
-            <div class="card-container">
-            <p >Skills</p>
-        </div>
-        </div>
-    </div>
-    
-    
-
-    <div class="column-button">
-        <div class="card" onclick="expand('work')">
-            <img src="./static/work.png" alt="Avatar">
-            <div class="card-container">
-            <p >Work</p>
-        </div>
-        </div>
-    </div>
-    <div class="column-button">
-        <div class="card" onclick="expand('certificates')">
-            <img src="./static/certificate.png" alt="Avatar">
-            <div class="card-container">
-            <p>Certificates</p>
-        </div>
-        </div>
-    </div>
-    <div class="column-button">     
-        <div class="card" onclick="expand('awards')">
-            <img src="./static/award.png" alt="Avatar">
-            <div class="card-container">
-           <p>Awards<br> & <br> Honours</p>
-        </div>
-        </div>
-    </div>
-    
-    </div>
-</div>
-</div>
-
-</body>
-
-<footer id="contact">
-<div class="row">
-<div class="columnfooter">
-    <div class="iconfooter">
-<a href="https://github.com/zas03ia" target="_blank">
-<img alt="iconfooter" src="./static/githubw.png">
-</a>
-</div>
-</div>
-<div class="columnfooter">
-<div class="iconfooter">
-<a href="https://www.linkedin.com/in/zasia-zafreen-7b5aa9282"  target="_blank">
-<img alt="iconfooter" src="./static/linkedin.png">
-</a>
-</div>
-</div>
-<div class="columnfooter">
-<div class="iconfooter">
-    <a href="mailto:zasia.zafreen@gmail.com" target="_blank">
-    <img alt="iconfooter" src="./static/gmail.png">
-    </a>
-</div>
-    </div>
-    <div class="columnfooter">
-        <div class="iconfooter">
-    <a href="https://www.google.com/search?q=bangaldesh&oq=bangaldesh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgwIAhAuGA0YsQMYgAQyFQgDEC4YDRiDARjHARixAxjRAxiABDIVCAQQLhgNGIMBGMcBGLEDGNEDGIAEMg8IBRAAGA0YgwEYsQMYgAQyDwgGEAAYDRiDARixAxiABDIPCAcQABgNGIMBGLEDGIAE0gEIMzE5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8"  target="_blank">
-    <img alt="iconfooter" src="./static/bangladesh.png">
-    </a>
-</div>
-    </div>
-</div> 
-</footer>
-
+   </body>
+   <footer id="contact">
+      <div class="row">
+         <div class="columnfooter">
+            <div class="iconfooter">
+               <a href="https://github.com/zas03ia" target="_blank">
+               <img alt="iconfooter" src="./static/githubw.png">
+               </a>
+            </div>
+         </div>
+         <div class="columnfooter">
+            <div class="iconfooter">
+               <a href="https://www.linkedin.com/in/zasia-zafreen-7b5aa9282"  target="_blank">
+               <img alt="iconfooter" src="./static/linkedin.png">
+               </a>
+            </div>
+         </div>
+         <div class="columnfooter">
+            <div class="iconfooter">
+               <a href="mailto:zasia.zafreen@gmail.com" target="_blank">
+               <img alt="iconfooter" src="./static/gmail.png">
+               </a>
+            </div>
+         </div>
+         <div class="columnfooter">
+            <div class="iconfooter">
+               <a href="https://www.google.com/search?q=bangaldesh&oq=bangaldesh&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgwIAhAuGA0YsQMYgAQyFQgDEC4YDRiDARjHARixAxjRAxiABDIVCAQQLhgNGIMBGMcBGLEDGNEDGIAEMg8IBRAAGA0YgwEYsQMYgAQyDwgGEAAYDRiDARixAxiABDIPCAcQABgNGIMBGLEDGIAE0gEIMzE5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8"  target="_blank">
+               <img alt="iconfooter" src="./static/bangladesh.png">
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
 </html>
